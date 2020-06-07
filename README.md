@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
-Live URL `https://priceless-kepler-9d76f4.netlify.app/`
+Live URL https://priceless-kepler-9d76f4.netlify.app/
 
 ## Development server
 
