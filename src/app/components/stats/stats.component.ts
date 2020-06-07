@@ -32,7 +32,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
 })
 export class StatsComponent implements OnInit {
   data: any;
-  URL = environment.BASE_URL;
+  BASE_URL = "https://corona.lmao.ninja/v2/";
 
   Highcharts = Highcharts;
 
@@ -46,7 +46,7 @@ export class StatsComponent implements OnInit {
 
   ngOnInit() {
 
-    this.http.get(this.URL + 'countries').subscribe(res => {
+    this.http.get(this.BASE_URL + 'countries').subscribe(res => {
       this.data = res;
       console.log(this.data);
     });
