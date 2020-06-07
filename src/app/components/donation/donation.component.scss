@@ -1,0 +1,44 @@
+.donation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.donation-banner-btn{
+    width: 50%;
+    border: none;
+    padding: 0.2rem;
+    font-family: 'Russo One',sans-serif;
+    font-size: 1.5rem;
+
+    &:focus{
+       outline:  none;
+    }
+}
+
+.banner-header{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+  .donation-form-text{
+    font-family: cursive;
+  }
+
+  mat-form-field {
+    margin-right: 12px;
+  }
+
+

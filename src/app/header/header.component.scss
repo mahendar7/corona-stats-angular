@@ -1,0 +1,24 @@
+.logo-icon{
+    vertical-align: middle;
+}
+
+.logo-text {
+    font-family: 'Russo One',sans-serif;
+}
+
+.main { 
+    display: flex; 
+    justify-content: space-between;
+  }
+
+.header-buttons { 
+    display: flex; 
+    justify-content: end;
+    align-items: flex-end;
+
+    :first-child{
+        margin-right: 10px;
+    }
+  }
+
+

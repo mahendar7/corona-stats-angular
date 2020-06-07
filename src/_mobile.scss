@@ -1,0 +1,39 @@
+
+@media(max-width: 600px) {
+    .header-donation-btn{
+        display: none;
+    }
+    
+    .main-logo{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media(max-width: 526px) {
+
+    .card-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mat-typography h4 ,.banner-header{
+        font-size: 0.5rem;
+        line-height: 1;
+    }
+
+    .donation-banner-btn{
+        font-size: 0.5rem;
+    }
+
+    .hand-icon{
+        display: none;
+    }
+}

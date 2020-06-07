@@ -1,0 +1,33 @@
+
+  .case-text{
+    font-family: cursive;
+    font-size: 1rem;
+  }
+  
+  .count-value{
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .card {
+    border:none;
+    border-radius:0;
+    width: 100%;
+      box-shadow: 5px 10px 10px #888888;
+  
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+      &:hover {
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1);
+        cursor: pointer;
+        border-bottom: 5px solid black;
+      }
+   
+  }
+
+  .modal-content,
+  .card-header{ border-radius:0 ; -webkit-border-radius:0 ; -moz-border-radius:0 ; -ms-border-radius:0 ; -o-border-radius:0 ; }
+
+  

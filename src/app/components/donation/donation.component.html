@@ -1,0 +1,56 @@
+<div class="donation">
+    <!-- Donation Banner -->
+    <div class="donation-container">
+        <div class="card">
+            <div class="card-header bg-danger text-white">
+                <div class="card-title">
+                    <h4 class="d-flex justify-content-center align-items-center banner-header mb-0">INDIA Fights Against
+                        COVID-19
+                    </h4>
+                </div>
+            </div>
+            <img src="https://www.redcross.sg/images/Covid-banner.jpg" alt="Donation Banner" width="100%"
+                height="200vh">
+            <div class="card-body">
+                <div class="d-flex justify-content-center">
+                    <button mat-raised-button color="primary" class="donation-banner-btn" (click)="open(donationform)"
+                        (openDonationFormForMe)="open(donationform)">Donate Now <mat-icon class="hand-icon">pan_tool
+                        </mat-icon>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Donation Banner -->
+    </div>
+</div>
+
+<!-- Donation Form -->
+<ng-template #donationform let-modal>
+    <div class="modal-body">
+        <h1 class="modal-title text-center donation-form-text">Donation Form</h1>
+        <hr>
+        <form>
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <div class="input-group">
+                    <input type="text" id="name" class="form-control" placeholder="Mahendar Kolpula" name="name"
+                        [(ngModel)]="name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="amount">Amount</label>
+                <div class="input-group">
+                    <input type="number" id="amount" class="form-control" placeholder="500" name="amount" min="1"
+                        [(ngModel)]="amount">
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <div class="d-flex justify-content-center">
+            <button mat-raised-button color="accent" (click)="modal.close('Save click')" [disabled]="!name || !amount"
+                (click)="payNow()">Pay Now </button>
+        </div>
+    </div>
+    <!-- Donation Form -->
+</ng-template>
