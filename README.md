@@ -1,6 +1,6 @@
 # CoronaStatsAngular
 
-# A Dynamic Web App, Inegrated Razor pay and API data
+A Dynamic Web App, Inegrated Razor pay and API data
 
 Live URL https://priceless-kepler-9d76f4.netlify.app/
 
