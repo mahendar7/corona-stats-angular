@@ -1,8 +1,12 @@
 # CoronaStatsAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+# A Dynamic Web App, Inegrated Razor pay and API data
 
 Live URL https://priceless-kepler-9d76f4.netlify.app/
+
+![alt text](http://www.mediafire.com/convkey/185d/e9o55sij4gepivszg.jpg?size_id=a)
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
 ## Development server
 
